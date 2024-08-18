@@ -1,0 +1,117 @@
+/* src/MyProducts.css */
+
+.my {
+  padding: 40px; /* Adjust padding for consistency */
+  background: #528293; /* Light background color for the container */
+  font-family: 'Roboto', sans-serif; /* Use the same modern font */
+}
+
+h2 {
+  color: #323538; /* Dark color for heading */
+  text-align: center; /* Center align the heading */
+  font-size: 2em; /* Increase font size */
+  margin-bottom: 30px; /* Space below the heading */
+  font-weight: bold; /* Bold heading */
+}
+h3{
+  font-family: cursive;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Center align the products */
+}
+
+.product-card {
+  background: linear-gradient(145deg, #334f60, #e6e6e6);
+  
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px;
+  max-width: 320px; /* Fixed width for uniformity */
+  box-shadow: 10px 10px 20px #d1d1d1, -10px -10px 20px #181717;
+  justify-content: space-evenly;
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+  text-align: center; /* Center align text */
+  color: #1c1c1c; /* Dark text color */
+}
+
+.product-card:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.product-image {
+  max-width: 100%; /* Full width image */
+  height: auto;
+  border-radius: 15px; /* Rounded corners for image */
+  margin-bottom: 15px; /* Space below the image */
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Shadow for image */
+}
+
+.product-image:hover {
+  transform: scale(1.1); /* Zoom effect on image hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.product-card h3 {
+  font-size: 1.5em; /* Larger font size for product name */
+  color: #323538; /* Dark color for heading */
+  margin: 10px 0;
+}
+
+.product-card p {
+  font-size: 1em; /* Standard font size for product details */
+  color: #1c1c1c; /* Dark color for text */
+  margin: 5px 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.edit-button,
+.delete-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px; /* Rounded corners for buttons */
+  font-size: 1em; /* Standard font size */
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.edit-button {
+  background-color: #28a745; /* Green color for edit button */
+}
+
+.delete-button {
+  background-color: #dc3545; /* Red color for delete button */
+}
+
+.edit-button:hover {
+  background-color: #218838; /* Darker green on hover */
+  transform: scale(1.05);
+}
+
+.delete-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+  transform: scale(1.05);
+}
+
+.edit-button:active,
+.delete-button:active {
+  transform: scale(0.98); /* Slightly scale down on click */
+}
+
+.hello {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Center align the product cards */
+}

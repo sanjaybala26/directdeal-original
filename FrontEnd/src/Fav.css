@@ -1,0 +1,36 @@
+/* src/Fav.css */
+.fav-page {
+  padding: 20px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  position: relative;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.remove-from-favorites-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.remove-from-favorites-button:hover {
+  background-color: #c62828;
+}

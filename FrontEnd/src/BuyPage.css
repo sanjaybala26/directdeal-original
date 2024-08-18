@@ -1,0 +1,88 @@
+.buy-page {
+  padding: 30px;
+  background: #528293;
+  font-family: 'Roboto', sans-serif;
+  color: #1c1c1c;
+}
+
+h1 {
+  text-align: center;
+  color: #323538;
+  font-size: 2em;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-family: cursive;
+}
+h2{
+  font-family:cursive;
+  
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: center;
+}
+
+.product {
+  background: linear-gradient(145deg, #334f60, #e6e6e6);
+  border-radius: 100px;
+  padding: 20px;
+  max-width: 20%;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 10px 20px #a2a2a2, -10px -10px 20px #181717;
+  
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  text-decoration: none;
+  margin-bottom: 40px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-image:hover {
+  transform: scale(1.1) ;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+
+}
+
+h2 {
+  margin: 10px 0;
+  color: #121212;
+}
+
+p {
+  margin: 5px 0;
+  color: #777;
+}
+
+.heart-button {
+  background-color: transparent;
+  border: none;
+  color: #ccc;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transition: color 0.3s ease;
+}
+
+.heart-button.favorite {
+  color: #e03d00;
+}
+
+.heart-button:hover {
+  color: #ff6b6b;
+}
